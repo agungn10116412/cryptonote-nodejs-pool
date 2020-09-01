@@ -1,5 +1,5 @@
 {
-	"poolHost": "your.pool.host",
+	"poolHost": "54.174.230.218",
 
 	"coin": "monero",
 	"symbol": "XMR",
@@ -70,7 +70,7 @@
 			"ban": true
 		},
 		"fixedDiff": {
-			"enabled": true,
+			"enabled": false,
 			"addressSeparator": "."
 		},
 		"shareTrust": {
@@ -81,7 +81,7 @@
 			"penalty": 30
 		},
 		"banning": {
-			"enabled": true,
+			"enabled": false,
 			"time": 600,
 			"invalidPercent": 25,
 			"checkThreshold": 30
