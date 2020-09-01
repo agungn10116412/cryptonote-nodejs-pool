@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 
 # Change this line to set the location of your coin wallet RPC daemon and set the RPC port you want to use
-ExecStart=D:\Monero GUI Wallet\monero-wallet-rpc --rpc-bind-ip=127.0.0.1 --rpc-bind-port=18082 --wallet=C:\Users\Administrator\Documents\Monero\wallets\pool --password=Kasarnyasar#1997
+ExecStart=D:\Monero\monero-wallet-rpc --rpc-bind-ip=127.0.0.1 --rpc-bind-port=18082 --wallet=C:\Users\Administrator\Documents\Monero\wallets\pool --password=Kasarnyasar#1997
 
 # Change this line to the user that will run your wallet RPC daemon
 User=pool

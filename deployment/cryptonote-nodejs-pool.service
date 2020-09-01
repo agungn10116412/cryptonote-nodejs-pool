@@ -12,8 +12,8 @@ ExecStart=/usr/bin/node init.js
 WorkingDirectory=/path/to/your/cryptonote-nodejs-pool/pool
 
 # Set user and group that will run the pool
-User=pool-user
-Group=pool-user
+User=pool
+Group=pool
 
 [Install]
 WantedBy=multi-user.target
