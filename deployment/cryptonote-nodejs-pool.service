@@ -9,11 +9,11 @@ SyslogIdentifier=cryptonote-nodejs-pool
 ExecStart=/usr/bin/node init.js
 
 # Change to the location of cryptonote-node-js-pool
-WorkingDirectory=/path/to/your/cryptonote-nodejs-pool/pool
+WorkingDirectory=/home/vpsfix/pool
 
 # Set user and group that will run the pool
-User=pool
-Group=pool
+User=vpsfix
+Group=vpsfix
 
 [Install]
 WantedBy=multi-user.target

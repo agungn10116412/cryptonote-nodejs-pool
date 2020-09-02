@@ -11,7 +11,7 @@ Restart=always
 ExecStart=D:\Monero\monerod --rpc-bind-ip 127.0.0.1 --rpc-bind-port=18081 --confirm-external-bind --detach
 
 # Change this line to the user that will run your coin daemon
-User=pool
+User=vpsfix
 
 [Install]
 WantedBy=multi-user.target
