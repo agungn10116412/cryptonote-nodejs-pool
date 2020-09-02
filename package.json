@@ -4,7 +4,7 @@
 	"license": "GPL-2.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
+		"url": "https://github.com/agungn10116412/cryptonote-nodejs-pool.git"
 	},
 	"dependencies": {
 		"async": "1",
