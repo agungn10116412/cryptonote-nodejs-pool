@@ -1,5 +1,5 @@
 {
-	"poolHost": "52.204.128.165",
+	"poolHost": "34.226.220.201",
 
 	"coin": "monero",
 	"symbol": "XMR",
@@ -64,13 +64,13 @@
 			"maxJump": 100
 		},
 		"paymentId": {
-			"addressSeparator": ".",
-			"validation": false,
+			"addressSeparator": "+",
+			"validation": true,
 			"validations": ["1,16", "64"],
 			"ban": true
 		},
 		"fixedDiff": {
-			"enabled": false,
+			"enabled": true,
 			"addressSeparator": "."
 		},
 		"shareTrust": {
@@ -297,7 +297,7 @@
 				"maximumPeriod": 86400
 			},
 			"payments": {
-				"enabled": false
+				"enabled": true
 			}
 		},
 		"blocks": {
