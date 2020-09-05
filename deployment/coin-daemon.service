@@ -8,7 +8,7 @@ GuessMainPID=no
 Restart=always
 
 # Change this line to set the location of your coin daemon
-ExecStart=/home/ubuntu/monero/build/Linux/release-v0.16/release/bin/monerod --rpc-bind-ip 127.0.0.1 --rpc-bind-port=18081 --confirm-external-bind --detach
+ExecStart=/home/ubuntu/monero/build/Linux/release-v0.16/release/bin/monerod --rpc-bind-ip 0.0.0.0 --confirm-external-bind --detach
 
 # Change this line to the user that will run your coin daemon
 User=ubuntu

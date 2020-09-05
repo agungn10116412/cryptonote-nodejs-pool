@@ -40,19 +40,24 @@
 		"sslCA": "./chain.pem",
 		"ports": [
 			{
-				"port": 8080,
-				"difficulty": 20000,
-				"desc": "Low end hardware"
-            },
-			{
 				"port": 4444,
 				"difficulty": 75000,
-				"desc": "Mid range hardware"
+				"desc": "starting diff 75k, low cpu"
             },
 			{
 				"port": 7777,
 				"difficulty": 175000,
-				"desc": "High end hardware"
+				"desc": "starting diff 175k, mid cpu"
+			},
+			{
+				"port": 5555,
+				"difficulty": 500000,
+				"desc": "starting diff 500k, high-end cpu"
+			},
+			{
+				"port": 8080,
+				"difficulty": 2000000,
+				"desc": "starting diff 2000K, (use xmrig-proxy)"
             }
         ],
 		"varDiff": {
@@ -97,24 +102,24 @@
 	"payments": {
 		"enabled": false,
 		"interval": 1800,
-		"maxAddresses": 50,
+		"maxAddresses": 5,
 		"mixin": 7,
 		"priority": 0,
-		"transferFee": 14000000000,
+		"transferFee": 0,
 		"dynamicTransferFee": true,
 		"minerPayFee": true,
-		"minPayment": 1000000000000,
+		"minPayment": 50000000,
 		"maxPayment": null,
-		"maxTransactionAmount": 0,
-		"denomination": 100000000000
+		"maxTransactionAmount": 100000000000,
+		"denomination": 1000000000
 	},
 
 	"blockUnlocker": {
 		"enabled": true,
 		"interval": 30,
 		"depth": 60,
-		"poolFee": 0.8,
-		"devDonation": 0.2,
+		"poolFee": 0,
+		"devDonation": 0,
 		"networkFee": 0.0
 	},
 
