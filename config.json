@@ -100,7 +100,7 @@
 	},
 
 	"payments": {
-		"enabled": true,
+		"enabled": false,
 		"interval": 1800,
 		"maxAddresses": 5,
 		"mixin": 7,
