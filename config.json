@@ -1,5 +1,5 @@
 {
-	"poolHost": "34.226.220.201",
+	"poolHost": "3.227.8.56",
 
 	"coin": "monero",
 	"symbol": "XMR",
@@ -69,14 +69,14 @@
 			"maxJump": 100
 		},
 		"paymentId": {
-			"addressSeparator": "+",
+			"addressSeparator": ".",
 			"validation": true,
 			"validations": ["1,16", "64"],
 			"ban": true
 		},
 		"fixedDiff": {
 			"enabled": true,
-			"addressSeparator": "."
+			"addressSeparator": "+"
 		},
 		"shareTrust": {
 			"enabled": true,
@@ -147,7 +147,7 @@
 
 	"wallet": {
 		"host": "127.0.0.1",
-		"port": 18082
+		"port": 18980
 	},
 
 	"redis": {
