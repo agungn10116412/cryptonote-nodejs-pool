@@ -131,7 +131,6 @@
 		"port": 8117,
 		"blocks": 30,
 		"payments": 30,
-		"password": "Kasarnyasar#1997",
 		"ssl": false,
 		"sslPort": 8119,
 		"sslCert": "./cert.pem",
